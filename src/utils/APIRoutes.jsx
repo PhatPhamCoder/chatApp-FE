@@ -12,4 +12,4 @@ export const createRoomRoute = `rooms/create-room`;
 export const joinRoomRoute = `rooms/join-room`;
 export const getRoomRoute = `rooms/get-room`;
 
-export const host = `http://localhost:5000`;
+export const host = `https://chatapp-be-4p01.onrender.com/`;

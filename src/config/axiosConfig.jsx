@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "http://localhost:5000/api/",
+  baseURL: "https://chatapp-be-4p01.onrender.com/api/",
   timeout: 3 * 1000,
   headers: {
     "Content-Type": "application/json",
@@ -91,7 +91,7 @@ async function refreshToken() {
 }
 
 export const axiosUpload = axios.create({
-  baseURL: "http://localhost:5000/api/",
+  baseURL: "https://chatapp-be-4p01.onrender.com/api/",
 });
 
 export default instance;
